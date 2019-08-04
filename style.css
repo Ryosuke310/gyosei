@@ -552,7 +552,7 @@ header {
     }
     .guide__inner__map {
         width: 100%;
-        margin-bottom:8px;
+        margin: 0 1% 8px 1%;
     }
     .guide__inner__txt__content__txt {
         margin: 20px 0;
