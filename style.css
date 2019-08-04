@@ -102,10 +102,6 @@ header {
     color: #000;
 }
 
-.header-left{
-    width: 88%;
-}
-
 /*SPヘッダー*/
 .site-header-sp{
     width:10%;
@@ -477,6 +473,9 @@ header {
     }
     .header-right{
         display: none;
+    }
+    .header-left{
+        width: 88%;
     }
     .header-nav{
         display: none;
