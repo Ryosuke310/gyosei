@@ -546,6 +546,7 @@ header {
     }
     .guide__inner__map {
         width: 100%;
+        margin-bottom:5px;
     }
     .guide__inner__txt__content__txt {
         margin: 20px 0;
