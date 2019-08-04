@@ -527,6 +527,12 @@ header {
     .example__inner {
         width: 80%;
     }
+    .example__inner__box__image {
+        width: 15%;
+    }
+    .example__inner__box__txt {
+        width: 85%;
+    }
     .performance{
         margin:0;
     }
