@@ -408,6 +408,7 @@ header {
 .guide__inner__txt__content__txt__right {
     width: 60%;
 }
+
 .form__content{
     width:80%;
     margin: 0 auto;
@@ -556,6 +557,12 @@ header {
     }
     .guide__inner__txt__content__txt {
         margin: 20px 0;
+    }
+    .guide__inner__txt__content__txt__left {
+        width: 100%;
+    }
+    .guide__inner__txt__content__txt__right {
+        width: 100%;
     }
     .form__content{
         width:100%;
