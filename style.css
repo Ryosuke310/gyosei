@@ -46,10 +46,11 @@ header {
 }
 
 .header-info-message {
+    margin-bottom:10px;
+    padding: 1rem 0;
     color: #fff;
     background-color: #16A7FF;
     text-align: center;
-    padding: 1rem 0;
 }
 
 .header-info {
@@ -70,6 +71,7 @@ header {
     height: 2rem;
     background: #fff;
     border:1px solid #16A7FF;
+    border-radius: 5px;
 }
 
 .header-cell-number > a{
@@ -79,6 +81,7 @@ header {
 .header-nav {
     display: flex;
     margin:20px 0 40px 0;
+    padding:0 2%;
 }
 
 .header-nav .item {
@@ -87,7 +90,7 @@ header {
 }
 
 .header-nav .item {
-    border-left: 1px dashed #4687BB;
+    border-left: 3px dotted #4687BB;
 }
 
 .item > img{
@@ -199,6 +202,7 @@ header {
 .top-image-box {
     display: flex;
     flex-wrap: wrap;
+    padding:0 2%;
 }
 
 .top-image-box .item {
@@ -218,7 +222,7 @@ header {
 .contents__title {
     margin-top: 80px;
     font-weight: bold;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     text-align: center;
 }
 .title__underline{
@@ -286,7 +290,6 @@ header {
 
 .ques__content__inner__txt__under > p{
     color: white;
-    font-weight: bold;
     text-align: right;
 }
 
@@ -329,7 +332,7 @@ header {
 }
 .performance__content {
     padding: 40px 5%;
-    border: 1px solid #16A7FF;
+    border: 3px solid #16A7FF;
     border-radius: 20px;
 }
 
@@ -368,7 +371,7 @@ header {
 }
 
 .guide__content {
-    border: 1px solid #16A7FF;
+    border: 3px solid #16A7FF;
     border-radius: 20px;
 }
 
@@ -384,12 +387,13 @@ header {
 }
 
 .guide__inner__txt__title{
-    padding:0 15%;
+    padding:0 10%;
     text-align:center;
 }
 
 .guide__inner__txt__title > p{
     margin: 0 0 5px 0;
+    font-size:1.2rem;
 }
 .guide__inner__map {
     width: 45%;
@@ -417,6 +421,7 @@ header {
 .form__inner__txt{
     margin:30px 0 20px 0;
     text-align: center;
+    line-height: 2.5;
 }
 .fotter{
     margin:80px 0 30px 0;
@@ -438,7 +443,13 @@ header {
     justify-content: space-between;
     padding:0 10%;
 }
-.lastlink > img{
+.ll_img1{
+    width:30%;
+}
+.ll_img2{
+    width:20%;
+}
+.ll_img3{
     width:30%;
 }
 .small{
@@ -551,6 +562,7 @@ header {
     }
     .guide__inner__txt{
         width: 90%;
+        line-height: 1.0;
     }
     .guide__inner__map {
         width: 100%;
@@ -564,6 +576,9 @@ header {
     }
     .guide__inner__txt__content__txt__right {
         width: 100%;
+    }
+    .guide__inner__txt__title > p{
+        font-size:1.0rem;
     }
     .form__content{
         width:100%;
