@@ -286,6 +286,7 @@ header {
 
 .ques__content__inner__txt__under{
     margin:40px 0 20px 0;
+    font-size:1.1rem;
 }
 
 .ques__content__inner__txt__under > p{
