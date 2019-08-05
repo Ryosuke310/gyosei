@@ -63,19 +63,22 @@ header {
 .header-right {
     display: flex;
     flex-wrap: wrap;
-    margin-right: 2%;
+    width:30%;
+    padding:0 2%;
 }
 
 .header-mail-button {
-    margin-right: 1.5rem;
+    margin-right: 2.0rem;
     height: 2rem;
     background: #fff;
     border:1px solid #16A7FF;
     border-radius: 5px;
+    font-size:1.1rem;
 }
 
 .header-cell-number > a{
     color: #333;
+    font-size:1.2rem;
 }
 
 .header-nav {
@@ -273,6 +276,7 @@ header {
 
 .ques__content__inner__image{
     width:30%;
+    margin-bottom:-5.5px;
 }
 
 .ques__content__inner__image > img{
@@ -285,8 +289,7 @@ header {
 }
 
 .ques__content__inner__txt__under{
-    margin:40px 0 20px 0;
-    font-size:1.1rem;
+    margin:20px 0 10px 0;
 }
 
 .ques__content__inner__txt__under > p{
