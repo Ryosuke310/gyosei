@@ -25,6 +25,10 @@ a {
     background: #16A7FF;
 }
 
+h3{
+    margin-bottom:0!important;
+}
+
 .liteblue {
     background: #87D0FE;
 }
@@ -447,7 +451,7 @@ header {
     justify-content: space-between;
     padding:0 10%;
 }
-.ll_img1{
+/* .ll_img1{
     width:30%;
 }
 .ll_img2{
@@ -455,7 +459,7 @@ header {
 }
 .ll_img3{
     width:30%;
-}
+} */
 .small{
     margin-top:80px;
     text-align: center;
@@ -600,7 +604,9 @@ header {
         font-size:0.8rem;
     }
     .lastlink > img{
-        width: 100%;
         margin:10px auto;
+    }
+    .ll_img3{
+        width: 100%;
     }
 }
