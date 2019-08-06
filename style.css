@@ -449,7 +449,8 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding:0 10%;
+    align-items: flex-start;
+    padding:0 12% 0 25%;
 }
 /* .ll_img1{
     width:30%;
@@ -602,6 +603,9 @@ header {
     }
     .fotter__inner__under > p{
         font-size:0.8rem;
+    }
+    .lastlink{
+        padding:0 10%;
     }
     .lastlink > img{
         margin:10px auto;
