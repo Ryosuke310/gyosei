@@ -306,10 +306,9 @@ header {
 }
 
 .example__inner {
-    width: 60%;
-    margin: 0 auto;
+    margin: 0 20%;
     padding: 20px 5%;
-    background: #fff;
+    background:#CFEBFC;
     border-radius: 20px;
 }
 
@@ -340,7 +339,6 @@ header {
 }
 .performance__content {
     padding: 40px 5%;
-    border: 3px solid #16A7FF;
     border-radius: 20px;
 }
 
@@ -351,8 +349,8 @@ header {
 }
 
 .performance__inner__card {
-    width: 31%;
-    margin: 10px 1%;
+    width: 29%;
+    margin: 20px 0;
 }
 
 .performance__inner__card > img{
